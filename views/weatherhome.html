@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Weather page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/weatherpagesettings.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="weatherhome.html" class="navbar-brand"><span id="websitename">Know Your Weather</span></a>
+                    </div>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li><a href="about.html"><span id="about">About</span></a></li>
+                    </ul>
+                 </div>
+            </nav><hr style="height:4px;border-width:0;color:#ECD540;background-color:#ECD540">
+        </header>
+        <main>
+            <form action="/" method="post">
+                <label for="cityname" id="label1">City Name</label>
+                <input type="text"  id="cityname" name="cityname" placeholder="Enter your city name...">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            </form>
+            <h3 id="resultdisplay" class="text-center"></h3>
+        </main>
+        <footer>
+            <h2 class="text-center" id="footertext">Thank you for using my website.</h2>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

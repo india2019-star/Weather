@@ -1,0 +1,97 @@
+body{
+    background: url("https://wallpaperaccess.com/full/1540016.jpg") no-repeat;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+header{
+    opacity: 0.8;
+}
+nav{
+    width: 100%;   
+}
+#websitename{
+    font-size: 40px;
+    margin: 5px 0 10px 2px;
+    float: left;
+    color: #ECD540;
+    font-weight: bold;
+}
+#about
+{
+    font-size: 30px;
+   color: #ECD540;
+   font-weight: bold;
+}
+
+header:hover
+{
+    box-shadow: 0px 3px 5px 3px #ECD540;
+    opacity: 1;
+    background-color: darkblue;
+}
+
+main
+{
+    text-align: center;
+    margin-top: 200px;
+     min-height: calc(100vh - 60px - 52px);
+}
+#cityname
+{
+    width: 500px;
+    border-radius: 3px;
+    border-color: white;
+}
+#cityname:hover
+{
+    box-shadow: 0px 1px 5px 1px white;
+}
+button
+{
+    width: 100px;
+    
+}
+
+@media (min-width:300px) and (max-width:1200px)
+{
+ 
+    
+    nav
+    {
+        width: 50%;
+    }
+    #websitename
+    {
+        font-size: 20px;
+        margin: 5px 0 10px 2px;
+        color: #ECD540;
+        font-weight: bold;
+    }
+    #about
+    {
+        position: relative;
+        left: 200px;
+        bottom: 50px;
+        font-size: 15px;
+        color: #ECD540;
+        font-weight: bold; 
+        text-align: right;
+    }  
+    #cityname
+    {
+        width: 40%;
+    }
+    button
+    {
+        width: 40px;
+    }
+    #label1
+    {
+        font-size: 20px;
+    }
+    #footertext
+    {
+        font-size: 20px;
+    }
+    
+}
